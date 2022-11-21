@@ -165,7 +165,7 @@ public class Game
     
 
 
- else
+ else if(m==0)
  {
     
 
@@ -308,6 +308,9 @@ else
 
         
     }
+	else{
+		System.out.println("Player this Number is invalid! : (Please Press only 1 and 0)");
+	}
 
 	}
 	
